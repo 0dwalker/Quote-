@@ -1,1 +1,31 @@
- 
+ h1{
+    font-size: 100px;
+    text-align: center;
+    background: red;
+    margin: 5;
+    padding: 5px;
+ }
+
+div{
+    width: 980px;
+    height: 100px;
+}
+Qt{
+    font-size: 40px;
+    background: blue;
+    float: left;
+    width: 30%;
+    height: 80%;
+    margin: 5px;
+    padding: 5px;
+}
+
+q1{
+    font-size: 20px;
+    background: green;
+    float: right;
+    width: 65%;
+    height: 80%;
+    margin: 5px;
+    padding: 5px;
+}
