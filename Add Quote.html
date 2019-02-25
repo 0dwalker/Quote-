@@ -6,19 +6,25 @@
     <link href= "Style_Sheet.css" type="text/css" rel="stylesheet">
 </head>
 <body>
-    <h1> 
-        <a href="C:\Users\librarystudent\Desktop\Quote--master\Home page.html"> Inpiration In Text </a>
+
+    <h1 class = main_h1> 
+        <a href="C:\Users\librarystudent\Desktop\Quote--master\Home page.html"> Inspiration In Text </a>
     </h1>
-    <div>
-        <form action ="addQuote.php" method ="post" class="form">
-            <Qt>
-                Add Quote 
-            </Qt>
+
+    <div id = add_Bar>
+
+        <Quote_Type id = qt>
+                    Add Quote 
+        </Quote_Type>
+
+        <form action ="addQuote.php" method ="post" class="form">           
             Quote: <input type="text"> 
             Quote Type: <input type="text" name="type" value="Del">
             <input type="submit" value="Submit">
         </form>
+    
     </div>
+
 </body>
 </html>
 
