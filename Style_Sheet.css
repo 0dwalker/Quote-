@@ -1,61 +1,144 @@
-.main_h1{
+#main_head{
     font-size: 100px;
     text-align: center;
+    padding: .5%;
+    margin: .5%;
+    text-shadow: 2px 2px black; 
     background: red;
-    margin: 5px;
-    padding: 5px;
-    text-shadow: 2px 2px black;
- }
-
-.main_Quote_Box{
-    height: 80px;
+    text-decoration-line: none; 
 }
 
-#qt{
-    font-size: 40px;
-    background: blue;
+
+.body{
+    height: 1000px;
     float: left;
-    width: 30%;
-    height: 80%;
-    margin: 5px;
-    padding: 5px;
-    text-align: center;
+    padding: .5%;
+    margin: .5%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+#side_bar{
+    width: 18%;
+    background-color: aqua;
+}
+#section{
+    width: 78%;
+    background-color: brown;
 }
 
-#q1{
+
+.main{
+    height: 80px;
+    padding: .5%;
+    margin: .5%;
+
+}
+.rq{
+    text-align: center;
     font-size: 20px;
     background: green;
-    float: right;
     width: 65%;
-    height: 80%;
-    margin: 5px;
-    padding: 5px;
+    height: 40%;
+    padding: .5%;
+    margin: .5%;
+}
+#qt{
+    height: 90%;
+    font-size: 40px;
+    background: blue;
+    width: 100%;
     text-align: center;
 }
 
-#pic{
-    width: 225px;
-    height: 225px;
+.Quote_Box{
+    height: 250px;
+    padding: .5%;
+    padding-bottom: 0;
+    margin: .5%;
+    margin-bottom: 0;
+}
+.boxpic{
+    width: 30%;
+    height: 90%;
     margin: 5px;
-    float: center;
 } 
+.pic{
+    height: 100%;
+    width: 100%;
+}
 
-form{
-    font-size: 40px;
-    background: blue;
-    height: 95%;
-    margin: 5px;
-    padding: 5px;
+#left{
+    float: left;
+}
+#right{
+    float: right;
+}
+
+
+
+
+
+
+
+#main{
+    font-size: 30px;
+    height: 60px;
+    padding-top: 5px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color: aqua;
     text-align: center;
-} 
-
-#toolBar{
-    height: 200px;
-    margin: 5px;
-    padding: 5px;
-    background: rgb(58, 100, 212);
 }
 
 #add_Bar{
     height: 100px
+}
+.form{
+    font-size: 40px;
+    background: blue;
+    height: 95%;
+    width: 98%;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+} 
+
+#list{
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color: blue;
+    width: 98.9%;
+    height: 300px;
+}
+.tem{
+    flex: 25%;
+    width: 10%;
+    float: left;
+}
+
+
+
+
+
+
+#addqt{
+    font-size: 30px;
+    width: 30%;
+    height: 80%;
+    float: left;
+    margin: .5%;
+    padding: .5%;
+    text-align: center;
+    background: olivedrab;
+}
+
+
+.toolBar{
+    height: 200px;
+    margin: 5px;
+    padding: 5px;
+    background: rgb(71, 212, 58);
 }
