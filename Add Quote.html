@@ -3,102 +3,50 @@
     <title>
 
     </title>
-    <link href= "Style_Sheet.css" type="text/css" rel="stylesheet">
+    <link href="Style_Sheet.css" type="text/css" rel="stylesheet">
 </head>
 <body>
 
-    <h1 id = main_head> 
+    <h1 id="main_head"> 
         <a href="C:\Users\librarystudent\Desktop\Quote--master\Home page.html"> Inspiration In Text </a>
     </h1>
 
-    <div id = add_Bar>
-       
-        <form action ="addQuote.php" method ="post" class = form>           
-            Add Quote: <input type="text"> 
-            <input type="submit" value="Submit">
-        </form>
-
-    </div>
-
-    <h2 id = main>
-        Type of Quotes
+    <h2 id="main">
+        Add Your Quotes
     </h2>
 
-    <div id = list>
-        
-        <div class = tem>
-            <input type="checkbox" name="types" value="Del"> del <br>
-            <input type="checkbox" name="types" value="Del"> this <br>
-            <input type="checkbox" name="types" value="Del"> not <br>
-            <input type="checkbox" name="types" value="Del"> were <br>
-            <input type="checkbox" name="types" value="Del"> happy <br>
-            <input type="checkbox" name="types" value="Del"> chuck <br>
-            <input type="checkbox" name="types" value="Del"> del <br>
-            <input type="checkbox" name="types" value="Del"> this <br>
-            <input type="checkbox" name="types" value="Del"> types <br>
-            <input type="checkbox" name="types" value="Del"> were <br>
-            <input type="checkbox" name="types" value="Del"> happy <br>
-            <input type="checkbox" name="types" value="Del"> chuck <br>
-            <input type="checkbox" name="types" value="Del"> del <br>
-            <input type="checkbox" name="types" value="Del"> chuck <br>
-            <input type="checkbox" name="types" value="Del"> del <br>
+    <section id="add_Bar">
+        <div class="hold_form">
+        <form action="Quote.php" method="post" class="form">           
+            
+            Add Quote: <input id="right" type="text" name="content" value="content"> <br>
+            
+            First Name: <input id="right" type="text" name="first" value="first name"> <br>
+            
+            Last Name: <input id="right" type="text" name="last" value="last name" > <br>
+            
+            Quote Type: <select id="right">
+                <option name="content" value="books">Books</option>
+                <option name="content" value="html">HTML</option>
+                <option name="content" value="css">CSS</option>
+                <option name="content" value="php">PHP</option>
+                <option name="content" value ="js">JavaScript</option>
+              </select> <br>
+            
+              Birth: <select id="right">
+                <option name = "birth" value="birth">2000</option>
+              </select> <br>
+            
+            Death: <select id="right">
+                <option name = "death" value="death">2001</option>
+            </select> <br>
+            
+            File: <input id="right" type="file" name=p_id" > <br> <br>
+            
+            <input id="right" type="submit" value="Submit">
+        </form>
         </div>
+    </section>
 
-        <div  class = tem>
-            <input type="checkbox" name="types" value="Del"> del <br>
-            <input type="checkbox" name="types" value="Del"> this <br>
-            <input type="checkbox" name="types" value="Del"> not <br>
-            <input type="checkbox" name="types" value="Del"> were <br>
-            <input type="checkbox" name="types" value="Del"> happy <br>
-            <input type="checkbox" name="types" value="Del"> chuck <br>
-            <input type="checkbox" name="types" value="Del"> del <br>
-            <input type="checkbox" name="types" value="Del"> this <br>
-            <input type="checkbox" name="types" value="Del"> types <br>
-            <input type="checkbox" name="types" value="Del"> were <br>
-            <input type="checkbox" name="types" value="Del"> happy <br>
-            <input type="checkbox" name="types" value="Del"> chuck <br>
-            <input type="checkbox" name="types" value="Del"> del <br>
-            <input type="checkbox" name="types" value="Del"> chuck <br>
-            <input type="checkbox" name="types" value="Del"> del <br>
-        </div>
-
-        <div  class = tem>
-            <input type="checkbox" name="types" value="Del"> del <br>
-            <input type="checkbox" name="types" value="Del"> this <br>
-            <input type="checkbox" name="types" value="Del"> not <br>
-            <input type="checkbox" name="types" value="Del"> were <br>
-            <input type="checkbox" name="types" value="Del"> happy <br>
-            <input type="checkbox" name="types" value="Del"> chuck <br>
-            <input type="checkbox" name="types" value="Del"> del <br>
-            <input type="checkbox" name="types" value="Del"> this <br>
-            <input type="checkbox" name="types" value="Del"> types <br>
-            <input type="checkbox" name="types" value="Del"> were <br>
-            <input type="checkbox" name="types" value="Del"> happy <br>
-            <input type="checkbox" name="types" value="Del"> chuck <br>
-            <input type="checkbox" name="types" value="Del"> del <br>
-            <input type="checkbox" name="types" value="Del"> chuck <br>
-            <input type="checkbox" name="types" value="Del"> del <br>
-        </div>
-
-        <div  class = tem>
-            <input type="checkbox" name="types" value="Del"> del <br>
-            <input type="checkbox" name="types" value="Del"> this <br>
-            <input type="checkbox" name="types" value="Del"> not <br>
-            <input type="checkbox" name="types" value="Del"> were <br>
-            <input type="checkbox" name="types" value="Del"> happy <br>
-            <input type="checkbox" name="types" value="Del"> chuck <br>
-            <input type="checkbox" name="types" value="Del"> del <br>
-            <input type="checkbox" name="types" value="Del"> this <br>
-            <input type="checkbox" name="types" value="Del"> types <br>
-            <input type="checkbox" name="types" value="Del"> were <br>
-            <input type="checkbox" name="types" value="Del"> happy <br>
-            <input type="checkbox" name="types" value="Del"> chuck <br>
-            <input type="checkbox" name="types" value="Del"> del <br>
-            <input type="checkbox" name="types" value="Del"> chuck <br>
-            <input type="checkbox" name="types" value="Del"> del <br>
-        </div> 
-
-    </div>
-    
 </body>
 </html>

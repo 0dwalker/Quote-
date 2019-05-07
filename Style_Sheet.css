@@ -93,13 +93,20 @@
 }
 
 #add_Bar{
-    height: 100px
+    height: 1000px;
+    background: blue;
+
+}
+.hold_form{
+    width: 50%;
+    background: red;
+    margin-left: 25%;
+    height: 75%;
+    margin-top: 10%;
+
 }
 .form{
-    font-size: 40px;
-    background: blue;
-    height: 95%;
-    width: 98%;
+    font-size: 30px;
     margin: 5px;
     padding: 5px;
     text-align: center;
@@ -141,4 +148,19 @@
     margin: 5px;
     padding: 5px;
     background: rgb(71, 212, 58);
+}
+
+
+
+.login{
+    background-color:blue;
+    padding: 1%;
+    margin: 1%;
+    margin-left: 15%;
+    margin-right: 15%;
+    height: 250px;
+}
+.answers{
+    padding: 20%;
+    padding-top: 10%;
 }
